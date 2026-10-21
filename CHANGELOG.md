@@ -4,6 +4,10 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+### Security
+
+- Builds use Go 1.26.10, which fixes GO-2026-6809 in crypto/x509. The 0.3.0 release binaries were built with Go 1.26.9.
+
 ## [0.3.0] - 2026-10-15
 
 ### Fixed
